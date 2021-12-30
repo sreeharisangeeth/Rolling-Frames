@@ -1,0 +1,76 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.card-deck {
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.galleryImg {
+  margin: 20px 0px 20px 0px;
+  max-width: 100%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.1s linear, transform 0.15s ease-out;
+}
+.galleryImg:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 17px 2px rgba(0, 0, 0, 0.14),
+    0 5px 22px 4px rgba(0, 0, 0, 0.12), 0 7px 8px -4px rgba(0, 0, 0, 0.2);
+}
+
+.booking {
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 200px;
+}
+
+.booking h2{
+  margin-left: 20%;
+}
+.booking .btn {
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+}
+
+.booking .row {
+  margin-top: 5%;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+footer ul {
+  list-style-type:none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer hr {
+  color: white;
+  background-color: white;
+}
+
+.footer{
+  margin-left: 10%;
+  margin-right: 10%;
+}
